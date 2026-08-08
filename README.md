@@ -4,9 +4,12 @@
   <img src="images/banner.png" alt="Industrial Predictive Maintenance Banner" width="100%">
 </p>
 
-### Data-Driven Condition Monitoring using Time-Series Analysis and Advanced Signal Processing
+### An Industrial Data Science Case Study using Time-Series Analysis and Advanced Signal Processing
 
-MSc Applied Data Science in Engineering  
+**Degree**
+MSc Applied Data Science in Engineering
+
+**Institution**
 Glasgow Caledonian University
 
 ---
@@ -19,11 +22,11 @@ The work was completed as part of my MSc Applied Data Science in Engineering dis
 
 The project combines low-frequency hydraulic test data with high-frequency vibration and magnetic sensor data to identify operational trends, degradation behaviour, anomalies, and potential condition-monitoring indicators.
 
-Rather than relying only on conventional pass/fail qualification outcomes, the analysis explores how cycle-based KPIs and signal-processing techniques can provide a more detailed understanding of valve health.
-
+High-pressure gate valves are critical assets in industrial fluid systems where unexpected failures can lead to costly downtime and maintenance. This project explores how engineering data science techniques can complement conventional qualification testing by combining engineering KPIs with advanced signal-processing methods to provide deeper insight into valve behaviour, degradation trends, and predictive maintenance opportunities.
 ---
 
 ## Project Scope
+The study analysed multiple qualification-test datasets representing different operating conditions and pressure classes. The investigation combined low-frequency hydraulic measurements with high-frequency sensor data to evaluate valve behaviour from both operational and vibration perspectives.
 
 Two primary test programmes were analysed:
 
@@ -54,7 +57,36 @@ The project aimed to:
 
 ---
 
+## Analytical Workflow
+
+The analysis followed a structured engineering workflow to transform raw industrial sensor measurements into meaningful condition-monitoring insights.
+
+The process began with inspection, cleaning, and preprocessing of multiple industrial datasets before identifying individual valve operating cycles. Cycle segmentation enabled extraction of engineering key performance indicators (KPIs), which were subsequently analysed using both time-domain and frequency-domain signal-processing techniques.
+
+The extracted features were then interpreted from an engineering perspective to identify degradation trends, compare normal and anomalous operating behaviour, and evaluate their relevance for predictive maintenance.
+
+The workflow consisted of the following stages:
+
+- Data inspection and preprocessing
+- Signal cleaning and sensor alignment
+- Valve-cycle segmentation
+- KPI extraction
+- Time-series trend analysis
+- Time-domain vibration analysis
+- Frequency-domain analysis
+- Time-frequency analysis
+- Comparison of normal and anomalous behaviour
+- Engineering interpretation of the results
+
+<p align="center">
+<img src="images/01_condition_monitoring_framework.png" width="900">
+</p>
+
+---
+
 ## Technologies & Methods
+
+A combination of engineering analysis, statistical techniques, and advanced signal-processing methods was used to investigate valve behaviour throughout the qualification testing programme. MATLAB served as the primary analytical environment for preprocessing, visualisation, KPI extraction, and vibration analysis.
 
 ### Software
 - MATLAB
@@ -79,29 +111,14 @@ The project aimed to:
 - Condition Monitoring
 - Vibration Analysis
 - Industrial Sensor Data Analysis
-
----
-
-## Analytical Workflow
-
-The analysis followed a structured workflow:
-
-1. Data inspection and preprocessing
-2. Signal cleaning and sensor alignment
-3. Valve-cycle segmentation
-4. KPI extraction
-5. Time-series trend analysis
-6. Time-domain vibration analysis
-7. Frequency-domain analysis
-8. Time-frequency analysis
-9. Comparison of normal and anomalous behaviour
-10. Engineering interpretation of the results
-
+  
 ---
 
 ## Key Findings
 
-The analysis identified several significant patterns across the test datasets:
+Analysis of the hydraulic, vibration, and magnetic sensor datasets identified several significant observations across the qualification testing programme.
+
+The principal findings are summarised below:
 
 - The 5k valve developed clear pressure-collapse and seat-leakage behaviour during the later stages of the 500-cycle qualification test.
 - The 10k valve showed a distinct operating-condition change while ultimately passing qualification.
@@ -110,6 +127,15 @@ The analysis identified several significant patterns across the test datasets:
 - RMS, kurtosis, PSD and STFT analysis revealed differences in vibration behaviour between operating cycles.
 - Early vibration cycles exhibited highly impulsive behaviour before transitioning towards more sustained broadband vibration characteristics.
 - Combining cycle-level operational KPIs with vibration analysis provided more diagnostic information than a binary qualification result alone.
+  
+### Qualification Test KPI Trends
+
+<p align="center">
+  <img src="images/03_5k_valve_kpi_trends.png" alt="5k Valve KPI Trends" width="900">
+</p>
+*Figure 1. KPI trends extracted from the 5k qualification test illustrating progressive changes in valve behaviour during repeated operating cycles.*
+
+*Brief explanation of the figure goes here.*
 
 ---
 
