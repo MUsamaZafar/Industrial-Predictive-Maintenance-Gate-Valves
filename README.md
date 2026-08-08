@@ -154,6 +154,42 @@ Potential extensions of the project include:
 
 ---
 
+---
+
+## Skills Demonstrated
+
+- MATLAB
+- Time-Series Analysis
+- Signal Processing
+- Predictive Maintenance
+- Condition Monitoring
+- Vibration Analysis
+- Data Visualisation
+- Engineering Data Analysis
+
+---
+
+## Academic & Industrial Context
+
+| Category | Details |
+|----------|---------|
+| **Degree** | MSc Applied Data Science in Engineering |
+| **University** | Glasgow Caledonian University |
+| **Industry Collaboration** | TechnipFMC |
+| **Project Type** | MSc Dissertation / Industrial Data Analysis Project |
+
+---
+
+## Confidentiality Notice
+
+This repository is intended as a portfolio-level overview of the analytical work completed during the project.
+
+Raw industrial datasets, proprietary information, internal company documentation, MATLAB source code developed using confidential datasets, and other protected material are **not included**.
+
+Only material suitable for public professional presentation has been shared.
+
+---
+
 ## Repository Contents
 
 ```text
