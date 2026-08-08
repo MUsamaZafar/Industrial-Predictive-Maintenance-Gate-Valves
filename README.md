@@ -175,7 +175,7 @@ Potential extensions of the project include:
 |----------|---------|
 | **Degree** | MSc Applied Data Science in Engineering |
 | **University** | Glasgow Caledonian University |
-| **Industry Collaboration** | TechnipFMC |
+| **Industry Collaboration** | TechnipFMC (Dissertation completed using industrial qualification-test datasets) |
 | **Project Type** | MSc Dissertation / Industrial Data Analysis Project |
 
 ---
