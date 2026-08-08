@@ -1,5 +1,9 @@
 # Industrial Predictive Maintenance of High-Pressure Gate Valves
 
+<p align="center">
+  <img src="images/banner.png" alt="Industrial Predictive Maintenance Banner" width="100%">
+</p>
+
 ### Data-Driven Condition Monitoring using Time-Series Analysis and Advanced Signal Processing
 
 MSc Applied Data Science in Engineering  
