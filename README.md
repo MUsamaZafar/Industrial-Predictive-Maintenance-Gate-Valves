@@ -79,7 +79,7 @@ The workflow consisted of the following stages:
 - Engineering interpretation of the results
 
 <p align="center">
-<img src="images/01_condition_monitoring_framework.png" width="900">
+<img src="images/01_condition_monitoring_framework.png" width="700">
 </p>
 
 ---
