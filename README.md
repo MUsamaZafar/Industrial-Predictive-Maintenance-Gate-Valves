@@ -21,8 +21,7 @@ This project investigates how data-driven analysis can provide deeper insight in
 The work was completed as part of my MSc Applied Data Science in Engineering dissertation at Glasgow Caledonian University using experimental qualification-test data provided through an industrial collaboration with TechnipFMC.
 
 The project combines low-frequency hydraulic test data with high-frequency vibration and magnetic sensor data to identify operational trends, degradation behaviour, anomalies, and potential condition-monitoring indicators.
-
-#High-pressure gate valves are critical assets in industrial fluid systems where unexpected failures can lead to costly downtime and maintenance. This project explores how engineering data science techniques can complement conventional qualification testing by combining engineering KPIs with advanced signal-processing methods to provide deeper insight into valve behaviour, degradation trends, and predictive maintenance opportunities.
+High-pressure gate valves are critical assets in industrial fluid systems where unexpected failures can lead to costly downtime and maintenance. This project explores how engineering data science techniques can complement conventional qualification testing by combining engineering KPIs with advanced signal-processing methods to provide deeper insight into valve behaviour, degradation trends, and predictive maintenance opportunities.
 ---
 
 ## Project Scope
