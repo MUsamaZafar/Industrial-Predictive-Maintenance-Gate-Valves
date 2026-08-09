@@ -66,6 +66,8 @@ The process began with inspection, cleaning, and preprocessing of multiple indus
 
 The extracted features were then interpreted from an engineering perspective to identify degradation trends, compare normal and anomalous operating behaviour, and evaluate their relevance for predictive maintenance.
 
+The complete analytical workflow is illustrated below.
+
 The workflow consisted of the following stages:
 
 - Data inspection and preprocessing
@@ -83,7 +85,10 @@ The workflow consisted of the following stages:
 <img src="images/01_condition_monitoring_framework.png" width="700">
 </p>
 
-*Figure 1. Overall analytical workflow illustrating the data preprocessing, feature extraction, signal processing, and engineering interpretation stages used throughout the project.*
+
+<p align="center">
+<i>Figure 1. Overall analytical workflow illustrating the data preprocessing, feature extraction, signal processing, and engineering interpretation stages used throughout the project.</i>
+</p>
 
 ---
 
