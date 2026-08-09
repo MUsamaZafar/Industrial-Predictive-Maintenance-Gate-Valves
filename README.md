@@ -84,6 +84,7 @@ The workflow consisted of the following stages:
 </p>
 
 *Figure 1. Overall analytical workflow illustrating the data preprocessing, feature extraction, signal processing, and engineering interpretation stages used throughout the project.*
+
 ---
 
 ## Technologies & Methods
