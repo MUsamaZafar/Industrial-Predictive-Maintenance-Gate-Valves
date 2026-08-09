@@ -83,6 +83,7 @@ The workflow consisted of the following stages:
 <img src="images/01_condition_monitoring_framework.png" width="700">
 </p>
 
+*Figure 1. Overall analytical workflow illustrating the data preprocessing, feature extraction, signal processing, and engineering interpretation stages used throughout the project.*
 ---
 
 ## Technologies & Methods
