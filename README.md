@@ -122,6 +122,40 @@ A combination of engineering analysis, statistical techniques, and advanced sign
   
 ---
 
+## Signal Processing Techniques
+
+High-frequency vibration measurements were analysed using complementary signal-processing techniques to characterise valve behaviour throughout repeated operating cycles.
+
+Time-domain metrics such as Root Mean Square (RMS) and Kurtosis were used to quantify vibration energy and impulsive behaviour. Fast Fourier Transform (FFT) and Power Spectral Density (PSD) analysis were used to examine frequency-domain characteristics, while Short-Time Fourier Transform (STFT) provided time-frequency representations of how vibration behaviour evolved throughout individual valve actuation events.
+
+Together, these techniques enabled vibration characteristics to be examined alongside hydraulic and operational measurements, providing additional insight into valve behaviour and potential condition-monitoring indicators.
+
+### Power Spectral Density (PSD) Analysis
+
+<p align="center">
+  <img src="images/04_psd_analysis.png"
+       alt="Power Spectral Density Analysis"
+       width="700">
+</p>
+
+<p align="center">
+  <i>Figure 2. Power Spectral Density analysis of high-frequency valve vibration data.</i>
+</p>
+
+### Multi-Sensor Analysis
+
+<p align="center">
+  <img src="images/05_multi_sensor_analysis.png"
+       alt="Multi-Sensor Valve Analysis"
+       width="700">
+</p>
+
+<p align="center">
+  <i>Figure 3. Multi-sensor analysis of valve behaviour during an operating cycle.</i>
+</p>
+
+---
+
 ## Key Findings
 
 Analysis of the hydraulic, vibration, and magnetic sensor datasets identified several significant observations across the qualification testing programme.
@@ -139,12 +173,14 @@ The principal findings are summarised below:
 ### Qualification Test KPI Trends
 
 <p align="center">
-  <img src="images/03_5k_valve_kpi_trends.png" alt="5k Valve KPI Trends" width="900">
+  <img src="images/03_5k_valve_kpi_trends.png"
+       alt="5k Valve Qualification Test KPI Trends"
+       width="700">
 </p>
-*Figure 1. KPI trends extracted from the 5k qualification test illustrating progressive changes in valve behaviour during repeated operating cycles.*
 
-*Brief explanation of the figure goes here.*
-
+<p align="center">
+  <i>Figure 4. KPI trends observed during the 5k valve qualification testing programme.</i>
+</p>
 ---
 
 ## Engineering Relevance
@@ -176,6 +212,18 @@ Challenges included:
 - Interpretation of anomalous operating behaviour
 
 These challenges required development of structured preprocessing and cycle-analysis workflows before meaningful signal analysis could be performed.
+
+### Industrial Data Analysis Challenges
+
+<p align="center">
+  <img src="images/02_data_engineering_challenges.png"
+       alt="Industrial Data Engineering Challenges"
+       width="700">
+</p>
+
+<p align="center">
+  <i>Figure 5. Key data engineering and preprocessing challenges encountered during the project.</i>
+</p>
 
 ---
 
