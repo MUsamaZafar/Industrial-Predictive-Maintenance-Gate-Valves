@@ -142,6 +142,10 @@ Together, these techniques enabled vibration characteristics to be examined alon
   <i>Figure 2. Power Spectral Density analysis of high-frequency valve vibration data.</i>
 </p>
 
+The PSD analysis was used to examine how vibration energy was distributed across frequency during repeated valve actuation cycles. A dominant component around 58 Hz was consistently observed across the early cycles, indicating a repeatable vibration characteristic associated with the test system.
+
+Comparing the spectral profiles between cycles provided a frequency-domain view of valve behaviour that complemented the time-domain RMS and kurtosis metrics. This helped distinguish persistent vibration characteristics from transient or cycle-specific behaviour.
+
 ### Multi-Sensor Analysis
 
 <p align="center">
@@ -153,6 +157,10 @@ Together, these techniques enabled vibration characteristics to be examined alon
 <p align="center">
   <i>Figure 3. Multi-sensor analysis of valve behaviour during an operating cycle.</i>
 </p>
+
+The multi-sensor view combines vibration, magnetic position, and hydraulic pressure measurements on a common cycle timeline. This enabled individual stages of valve operation to be interpreted in relation to both mechanical response and actuator behaviour rather than analysing each sensor independently.
+
+Aligning complementary sensor channels was particularly important for identifying valve-motion boundaries, comparing opening and closing behaviour, and investigating unusual operating events. This multi-parameter approach provided the physical context required to interpret vibration features more reliably.
 
 ---
 
@@ -181,6 +189,11 @@ The principal findings are summarised below:
 <p align="center">
   <i>Figure 4. KPI trends observed during the 5k valve qualification testing programme.</i>
 </p>
+
+Cycle-level KPI analysis revealed a clear deterioration pattern in the 5k valve during the later stages of its 500-cycle qualification test. Peak hydraulic pressure remained relatively stable through most of the test before declining rapidly after approximately cycle 408, while differential pressure subsequently collapsed towards zero at cycles 429–430.
+
+Flow-rate KPIs showed smaller upward trends before the main pressure collapse, providing an earlier indication of changing sealing behaviour. Together, these trends demonstrate how cycle-by-cycle KPI monitoring can reveal progressive degradation that would be obscured by considering only the final pass/fail qualification outcome.
+
 ---
 
 ## Engineering Relevance
@@ -224,6 +237,10 @@ These challenges required development of structured preprocessing and cycle-anal
 <p align="center">
   <i>Figure 5. Key data engineering and preprocessing challenges encountered during the project.</i>
 </p>
+
+A substantial part of the project involved transforming raw industrial sensor data into analysis-ready datasets. Key challenges included large file sizes, inconsistent or incomplete metadata, multiple sampling frequencies, sensor bias, alignment of different measurement streams, and the absence of explicit valve-cycle labels within the original high-frequency data.
+
+Addressing these issues required structured preprocessing and segmentation before reliable feature extraction and signal analysis could begin. This stage highlighted the importance of data engineering in real-world condition-monitoring applications, where preparing and validating the data can be as important as the analytical techniques applied afterwards.
 
 ---
 
