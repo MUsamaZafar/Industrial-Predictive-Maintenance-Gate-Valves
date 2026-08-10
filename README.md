@@ -173,7 +173,7 @@ The principal findings are summarised below:
 ### Qualification Test KPI Trends
 
 <p align="center">
-  <img src="images/03_5k_valve_kpi_trends.png"
+  <img src="images/03_5k_valve_kpi_trends.png.png"
        alt="5k Valve Qualification Test KPI Trends"
        width="700">
 </p>
