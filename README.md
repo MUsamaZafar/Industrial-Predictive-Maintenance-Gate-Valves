@@ -208,11 +208,11 @@ Developing data-driven condition-monitoring techniques for these systems could s
 - Better interpretation of qualification-test results
 - Future predictive-maintenance and automated anomaly-detection systems
 
+Together, these capabilities demonstrate how engineering data science can complement conventional qualification testing by providing richer diagnostic information about asset behaviour.
+
 ---
 
 ## Challenges Addressed
-
-A major part of the project involved data engineering and preprocessing.
 
 Challenges included:
 
@@ -246,7 +246,9 @@ Addressing these issues required structured preprocessing and segmentation befor
 
 ## Future Development
 
-Potential extensions of the project include:
+The analytical framework developed during this project provides a foundation for further research and more advanced condition-monitoring applications.
+
+Potential extensions include:
 
 - Extending vibration analysis across the complete high-frequency dataset
 - Automated anomaly detection
@@ -254,8 +256,6 @@ Potential extensions of the project include:
 - Multi-sensor feature fusion
 - Integration of pressure and vibration signatures
 - Development of a more comprehensive valve-health assessment framework
-
----
 
 ---
 
@@ -305,4 +305,9 @@ Industrial-Predictive-Maintenance-Gate-Valves/
 │   └── presentation.pdf
 │
 └── images/
-    └── selected-project-figures/
+    ├── banner.png
+    ├── 01_condition_monitoring_framework.png
+    ├── 02_data_engineering_challenges.png
+    ├── 03_5k_valve_kpi_trends.png.png
+    ├── 04_psd_analysis.png
+    └── 05_multi_sensor_analysis.png
